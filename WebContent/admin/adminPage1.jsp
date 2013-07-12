@@ -9,12 +9,30 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>ADMIN PAGE 1</title>
+    <style type="text/css">
+<!--
+body {
+	background: #FFF;
+	color: #444;
+	font: normal 80% sans-serif;
+	line-height: 2;
+}
+
+.center {
+	margin: auto;
+	width: 70%;
+	background-color: transparent;
+}
+-->
+</style>
     </head>
     <body>
+            <%@ include file="../menu/menuadmin.jsp" %>
+    <hr>
+    <div class="center">
         <p>This is an admin page.</p>
-        <p><a href='<spring:url value="/j_spring_security_logout" htmlEscape="true" />'>Logout</a></p>
         
-        <%@ include file="../menu.jsp" %>
 
-    </body>
+	</div>
+	</body>
 </html>

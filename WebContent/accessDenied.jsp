@@ -10,6 +10,6 @@
     <body>
         <p>Akses Ditolak. Anda tidak diperbolehkan untuk mengakses halaman  ini.</p>
           <hr>
-              <%@ include file="menu.jsp" %>
+              <%@ include file="menu/menu.jsp" %>
     </body>
 </html>

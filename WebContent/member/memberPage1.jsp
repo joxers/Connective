@@ -9,10 +9,21 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>MEMBER PAGE 1</title>
+         <style type="text/css"> 
+   <!--	
+	body {
+		background: #FFF;
+		color: #444;
+		font: normal 80% sans-serif;
+		line-height: 2;
+	}
+    -->
+   </style>
     </head>
     <body>
+    <%@ include file="/menu/menumember.jsp" %><hr>
+    
         <p>This is a member page.</p>
-        <p><a href='<spring:url value="/j_spring_security_logout" htmlEscape="true" />'>Logout</a></p>
-        <p><a href="memberPage1.jsp">Go to Member page 1</a></p>
+      
     </body>
 </html>

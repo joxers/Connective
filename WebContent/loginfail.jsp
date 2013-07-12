@@ -8,8 +8,9 @@
         <title>LOGIN FAILED</title>
     </head>
     <body>
-        <p>Login failed.</p>
-       <hr>
-              <%@ include file="menu.jsp" %>
+       <%@ include file="menu/menu.jsp" %>
+       
+       <p align="center" >Username dan Password yang anda masukkan salah.</p>
+       
     </body>
 </html>
